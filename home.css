@@ -19,6 +19,7 @@ Tan #E0A96D */
   --highlight: #b81024;
   --hightlight2: #e50914;
   --glassred: rgba(243, 18, 18, 0.182);
+  --section-background: rgba(220, 20, 60, 0.171);
 }
 
 body {
@@ -29,7 +30,7 @@ body {
 }
 
 section {
-  transition: transform 1s, opacity 1s;
+  transition: all 1s, opacity 1s;
 }
 
 .section--hidden {
@@ -211,7 +212,7 @@ blockquote::selection {
   height: 15rem;
   margin: 4rem 0 4rem 4rem;
   border-radius: 1rem;
-  background-color: var(--glassred);
+  background-color: var(--section-background);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,6 +239,10 @@ blockquote::selection {
   transform: skew(-15deg);
   transition: all 0.3s ease-in;
   z-index: -1;
+}
+
+.right:hover {
+  background-color: var(--glassred);
 }
 
 .right:hover .title::after {
@@ -274,7 +279,7 @@ blockquote::selection {
 }
 
 .middle {
-  background-color: rgba(220, 20, 60, 0.171);
+  background-color: var(--section-background);
   margin: 0 4rem 4rem 53rem;
   max-width: 50rem;
   height: 15rem;
@@ -400,6 +405,10 @@ blockquote::selection {
   transition: all 0.3s ease;
 }
 
+.middle:hover {
+  background-color: var(--glassred);
+}
+
 .middle:hover .arrow {
   color: var(--text);
   transform: skew(15deg);
@@ -457,7 +466,7 @@ blockquote::selection {
 }
 
 .aboutMe {
-  background-color: rgba(245, 10, 10, 0.226);
+  background-color: var(--section-background);
   margin: 0 0 4rem 4rem;
   max-width: 50rem;
   height: 15rem;
@@ -514,6 +523,10 @@ blockquote::selection {
   margin-left: 1rem;
 }
 
+.aboutMe:hover {
+  background-color: var(--glassred);
+}
+
 .aboutMe:hover .title::after {
   transform: skew(15deg);
 }
@@ -531,6 +544,10 @@ blockquote::selection {
   position: relative;
 
   transition: all 0.3s ease-in;
+}
+
+.contact:hover {
+  background-color: var(--glassred);
 }
 
 .contact:hover .title::after {
