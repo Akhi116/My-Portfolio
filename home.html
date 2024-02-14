@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="home.css"/>
+    <script defer src="home.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="./images/myphoto-no-background.png" target="_blank" class="link">
+        <h2 class="my-name" title="Photo">Akhil</h2>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" title="Home" class="links">Home</a></li>
+          <li><a href="#projects" class="links">Projects</a></li>
+          <li><a href="#aboutme" title="About" class="links">About Me</a></li>
+          <li>
+            <a href="#contactme" title="Contact" class="links">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="left" id="home">
+        <div class="aside">
+          <marquee class="marquee"
+            >Welcome,
+            <blockquote>
+              My name is S. Akhil Kumar, This is My Portfolio
+            </blockquote>
+          </marquee>
+        </div>
+        <div class="image"></div>
+        <div class="typing">
+          <span class="content">I'm a </span>
+          <h1>FRESHER</h1>
+        </div>
+
+        <div class="aside">
+          I am Passionate about Web development, I want to explore
+          <a href="#skills" class="skill-link">my skills</a>, I need a Platform
+          to expose...
+        </div>
+      </section>
+
+      <section class="right section--hidden">
+        <div class="top">
+          <p class="title" id="skills">Skills</p>
+          <div class="nav-list">
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Core-Java</li>
+              <li>MySql</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="middle section--hidden" id="projects">
+        <p class="title">Projects</p>
+        <div class="slider">
+          <div class="slide slide--1">
+            <div class="project">
+              <img src="./images/forkify.png" alt="forkify" />
+              <h4 class="project_title">Forkify - A recipe Finder</h4>
+              <a
+                href="https://forkify-akhil116.netlify.com"
+                target="_blank"
+                class="gotolink"
+                >Go&rightarrow;</a
+              >
+            </div>
+          </div>
+
+          <div class="slide slide--2">
+            <div class="project">
+              <img src="./images/bankist.png" alt="Bankist" class="bankist" />
+              <h4 class="project_title">Bankist - Bank Website</h4>
+              <a
+                href="https://bankycom.netlify.com"
+                target="_blank"
+                class="gotolink"
+                >Go&rightarrow;</a
+              >
+            </div>
+          </div>
+
+          <div class="slide slide--3">
+            <div class="project">
+              <img src="./images/mapty.png" alt="Mapty" />
+              <h4 class="project_title">Mapty - A Workout Map</h4>
+              <a href="#" target="_blank" class="gotolink">Go&rightarrow;</a>
+            </div>
+          </div>
+
+          <div class="slide slide--4">
+            <div class="project">
+              <img src="./images/number-guess.png" alt="Number-guessing" />
+              <h4 class="project_title">Number Guessing Game</h4>
+              <a
+                href="https://guess-the-number-akhi116.netlify.com"
+                target="_blank"
+                class="gotolink"
+                >Go&rightarrow;</a
+              >
+            </div>
+          </div>
+
+          <button class="arrow-left arrow">&leftarrow;</button>
+          <button class="arrow-right arrow">&rightarrow;</button>
+          <div class="dots"></div>
+        </div>
+      </section>
+
+      <section class="aboutMe section--hidden" id="aboutme">
+        <div class="my_details">
+          <p class="title">About Me</p>
+          <p class="detail">Certifications:</p>
+          <ul>
+            <li>JavaScript completion course By Udemy</li>
+            <li>JavaScript Basic,intermediate certificate by HackerRank</li>
+            <li>Beginner MySQL by Scalar Topics</li>
+            <li>AWS cloud Computing by AICTE</li>
+          </ul>
+          <p class="detail">
+            GitHub:
+            <a href="https://github.com/Akhi116" target="_blank">Akhi116</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="contact section--hidden" id="contactme">
+        <div class="address">
+          <p class="title">Contact Me</p>
+
+          <p class="detail">
+            Email Id:
+            <span>akhilsadhanala116@gmail.com</span>
+          </p>
+          <p class="detail">
+            LinkedIn:
+            <span
+              ><a href="https://www.linkedin.com/in/akhil-kumar-sadhanala/"
+              target="_blank">Akhil Kumar Sadhanala</a
+              ></span
+            >
+          </p>
+          <p class="detail">Phone No: <span>9502613032</span></p>
+        </div>
+        <p class="detail">Instagran: <span><a href="https://www.instagram.com/a._.k._.19/"
+          target="_blank">a._.k._.19</a>
+        </span>
+        </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Akhil Kumar Sadhanala</p>
+    </footer>
+  </body>
+</html>
