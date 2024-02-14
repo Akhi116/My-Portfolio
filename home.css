@@ -275,7 +275,7 @@ blockquote::selection {
 
 .middle {
   background-color: rgba(220, 20, 60, 0.171);
-  margin: 0 4rem 4rem 40rem;
+  margin: 0 4rem 4rem 53rem;
   max-width: 50rem;
   height: 15rem;
   border-radius: 1.5rem;
@@ -523,7 +523,7 @@ blockquote::selection {
 
 .contact {
   background-color: rgba(220, 20, 60, 0.171);
-  margin: 0 4rem 4rem 40rem;
+  margin: 0 4rem 4rem 53rem;
   max-width: 50rem;
   height: 15rem;
   padding: 3rem;
